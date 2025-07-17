@@ -11751,3 +11751,46 @@ html {
   text-decoration: solid;
   
 }
+
+.justify{
+  text-align: justify;
+  text-justify: inter-word;
+}
+.profile {
+    width: 350px;
+    height: 400px;
+    border-radius: 80px;
+    position: relative;
+    text-align: center;
+    color: white ;
+    font-size: 2rem;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.profile-text {
+    z-index: 2;
+    position: relative;
+    font-size:40px;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    
+}
+
+.bg-gradient-primary-to-secondary {
+    background: linear-gradient(135deg, #3a0ca3, #f72585);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.gradient-text {
+  
+  font-weight: bold;
+  font-style:italic;
+  
+  background: linear-gradient(45deg, #00c6ff, #ff0099);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
