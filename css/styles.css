@@ -11774,6 +11774,7 @@ html {
     font-size:40px;
     font-family:'Courier New', Courier, monospace;
     font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
 
@@ -11790,7 +11791,7 @@ html {
   font-weight: bold;
   font-style:italic;
   
-  background: linear-gradient(45deg, #00c6ff, #ff0099);
+  background: linear-gradient(45deg,#00050a, #0775eb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
