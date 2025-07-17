@@ -11774,6 +11774,7 @@ html {
     font-size:40px;
     font-family:'Courier New', Courier, monospace;
     font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
 
@@ -11790,7 +11791,32 @@ html {
   font-weight: bold;
   font-style:italic;
   
-  background: linear-gradient(45deg, #00c6ff, #ff0099);
+  background: linear-gradient(45deg,#00050a, #0775eb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+.profile {
+    width: 500px;
+    height: 500px;
+    border-radius: 100px;
+    background: linear-gradient(to bottom right, #4e00c2, #ff2e87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.profile-video {
+    width: 60%; /* You can change to fixed width like 300px if preferred */
+    height: 7000px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+lottie-player {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
