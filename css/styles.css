@@ -11768,13 +11768,28 @@ html {
     overflow: hidden;
 }
 
+
+@font-face {
+  font-family: 'SpaceNova';
+  src: url('./SpaceNova-6Rpd1.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SuperPixel';
+  src: url('./SuperPixel-m2L8j.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 .profile-text {
     z-index: 2;
     position: relative;
-    font-size:40px;
-    font-family:'Courier New', Courier, monospace;
-    font-style: italic;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:18px;
+    font-family:'SuperPixel',sans-serif;
+  font-weight: 600;   
+  font-style:normal;
+}
+    
     
 }
 
@@ -11789,9 +11804,9 @@ html {
 .gradient-text {
   
   font-weight: bold;
-  font-style:italic;
-  
-  background: linear-gradient(45deg,#00050a, #0775eb);
+  font-style:normal;
+  font-family:'SuperPixel',sans-serif;
+  background: linear-gradient(45deg,#fcdb03, #faf7f5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -11820,3 +11835,15 @@ lottie-player {
     border-radius: 20px;
 }
 
+
+
+#rotating-text {
+    transition: opacity 0.5s ease;
+    display: inline-block;
+    font-family: 'SuperPixel',sans-serif;
+    min-width: 80px; /* Prevents layout shift during animation */
+}
+.pixel-text-bold {
+  font-family:'SuperPixel',sans-serif;
+  font-weight: 700;
+}
